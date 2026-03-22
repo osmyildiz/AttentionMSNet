@@ -2,8 +2,9 @@
 
 **An Attention-Enhanced Multi-Scale Framework for Alzheimer's Disease Classification with Subject-Level Validation**
 
-*Osman Yildiz and Abdulhamit Subasi*  
-University at Albany, State University of New York
+*Osman Yildiz¹ and Abdulhamit Subasi¹*  
+
+¹ Department of Information Science and Technology, University at Albany, State University of New York, Albany, NY 12222, USA
 
 [![Python 3.10](https://img.shields.io/badge/python-3.10-blue.svg)](https://www.python.org/downloads/)
 [![PyTorch](https://img.shields.io/badge/pytorch-2.1%2B-red.svg)](https://pytorch.org/)
@@ -103,7 +104,7 @@ AttentionMSNet/
 
 ```bash
 # Clone the repository
-git clone https://github.com/osmanyildiz/AttentionMSNet.git
+git clone https://github.com/osmyildiz/AttentionMSNet.git
 cd AttentionMSNet
 
 # Create virtual environment
@@ -189,7 +190,8 @@ If you use this code, please cite:
          Alzheimer's Disease Classification with Subject-Level Validation},
   author={Yildiz, Osman and Subasi, Abdulhamit},
   journal={Applied Sciences},
-  year={2026}
+  year={2026},
+  publisher={MDPI}
 }
 ```
 
@@ -197,7 +199,10 @@ If you use this code, please cite:
 
 This project is licensed under the MIT License — see [LICENSE](LICENSE) for details.
 
-## Acknowledgments
+## Authors
+
+- **Osman Yildiz** — Department of Information Science and Technology, University at Albany, SUNY (oyildiz@albany.edu)
+- **Abdulhamit Subasi** — Department of Information Science and Technology, University at Albany, SUNY (asubasi@albany.edu)
 
 - OASIS dataset: [Marcus et al., 2007](https://doi.org/10.1162/jocn.2007.19.9.1498)
 - University at Albany Research IT for DGX cluster access
