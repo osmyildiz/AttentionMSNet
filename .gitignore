@@ -42,3 +42,6 @@ Thumbs.db
 *.h5
 *.pth
 *.pt
+
+# Article drafts (not tracked)
+article/
