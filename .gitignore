@@ -1,0 +1,44 @@
+# Data (too large for git)
+data/raw/
+data/processed/
+outputs/models/
+outputs/swin_features/
+*.npz
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+dist/
+build/
+*.so
+venv/
+alzxai_env/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# Logs
+logs/*.out
+logs/*.err
+*.log
+
+# OS
+Thumbs.db
+.DS_Store
+
+# Large files
+*.tar.gz
+*.zip
+*.h5
+*.pth
+*.pt

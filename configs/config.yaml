@@ -1,0 +1,27 @@
+project:
+  name: "AlzAttentionXAI"
+  seed: 42
+
+data:
+  raw_dir: "data/raw"
+  splits_dir: "data/splits"
+  image_size: 224
+  num_classes: 2
+  class_names: ["Non-Demented", "Demented"]
+
+model:
+  backbone: "efficientnet_b3"
+  pretrained: true
+  dropout: 0.4
+
+training:
+  epochs: 50
+  batch_size: 128
+  lr: 0.0003
+  weight_decay: 0.001
+  scheduler: "cosine"
+  early_stopping_patience: 10
+  num_workers: 0
+  n_folds: 10
+
+device: "cuda"
